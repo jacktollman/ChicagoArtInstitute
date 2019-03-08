@@ -2,12 +2,12 @@
 # Site settings
 title: Your awesome title
 description: A starter site
-baseurl: "/web1-categories" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
+baseurl: "/ChicagoArtInstitute" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
 
 # Build settings
 markdown: kramdown
 
-defaults:  
+defaults:
   # settings for pages unless an alternative is specified
   - scope:
       path: ""
