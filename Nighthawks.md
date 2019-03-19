@@ -1,8 +1,12 @@
 ---
 title: Nighthawks
-photographer: Edward Hopper
+artist: Edward Hopper
 location: Midwest
-period: 1940s
+period: 1940
+style: Modernism, Social realism
+medium: Oil on canvas
+origin: United States
+subject: cityscape
 image: /img/agent.jpg
 ---
 
