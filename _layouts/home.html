@@ -27,7 +27,11 @@
 
         <h1>THE ESSENTIAL COLLECTION</h1>
         
-        
+	 {% for p in site.pages %}
+             {{ p.title }}
+		{{ p.artist}}
+       
+         {% endfor %}    
         
         <section class="listing">
 
