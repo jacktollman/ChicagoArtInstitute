@@ -32,8 +32,9 @@ p  {	font-family: "Roboto";
 }
 
 h2 {	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 28px;
 	display: block;
+	font-weight: 400;
 }
 	
 h3  {	font-family: 'Playfair Display', serif;
@@ -41,6 +42,14 @@ h3  {	font-family: 'Playfair Display', serif;
 	display: block;
 	color: #B50938;
 }
+
+h4  {	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	display: block;
+	color: #727272;
+}
+
+
 
 body {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
