@@ -31,22 +31,32 @@ p  {	font-family: "Roboto";
 	display: block;
 }
 
+h1 {	font-family: "Roboto", serif;
+	font-size: 30px;
+	display: block;
+	font-weight: 800;
+	margin: 0;
+}
+
 h2 {	font-family: 'Playfair Display', serif;
 	font-size: 28px;
 	display: block;
 	font-weight: 400;
+	margin: 0;
 }
 	
 h3  {	font-family: 'Playfair Display', serif;
 	font-size: 17px;
 	display: block;
 	color: #B50938;
+	margin: 0;
 }
 
 h4  {	font-family: 'Playfair Display', serif;
 	font-size: 14px;
 	display: block;
 	color: #727272;
+	margin: 0;
 }
 
 
