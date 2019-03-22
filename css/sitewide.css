@@ -26,6 +26,10 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 /* ------------------------------------------------------------ */
 /* start project-specifc styles below this line */
 
+p  {	font-family: "Roboto";
+	display: block;
+}
+
 body {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
