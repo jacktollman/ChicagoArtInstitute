@@ -28,6 +28,9 @@
         <h1>THE ESSENTIAL COLLECTION</h1>
         
 	 {% for p in site.pages %}
+		<a href="{{ site.baseurl }}{{ p.url }}">
+                      <img src="{{ site.baseurl }}{{ p.image }}" alt="{{ p.title }}">
+                </a>
 		{{ p.artist}}
 		{{ p.title }}
          {% endfor %}    
