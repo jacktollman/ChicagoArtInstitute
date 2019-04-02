@@ -15,51 +15,20 @@ img, object { max-width: 100%; }
 /*	Development/layout aid. Remove the comments
 	on this rule in order to draw boxes around DIVs
 	and other elements used for layout. */
-/* 
+/*
 div, main, article, section, aside, hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Playfair+Display"
+			rel="stylesheet">
+
+
 
 /* ------------------------------------------------------------ */
 /* start project-specifc styles below this line */
-
-p  {	font-family: "Roboto";
-	display: block;
-}
-
-h1 {	font-family: "Roboto", serif;
-	font-size: 30px;
-	display: block;
-	font-weight: 800;
-	margin: 0;
-}
-
-h2 {	font-family: 'Playfair Display', serif;
-	font-size: 28px;
-	display: block;
-	font-weight: 400;
-	margin: 0;
-}
-	
-h3  {	font-family: 'Playfair Display', serif;
-	font-size: 17px;
-	display: block;
-	color: #B50938;
-	margin: 0;
-}
-
-h4  {	font-family: 'Playfair Display', serif;
-	font-size: 14px;
-	display: block;
-	color: #727272;
-	margin: 0;
-}
-
-
 
 body {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,61 +37,456 @@ body {
 	color: #222;
 }
 
+
+h1	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	line-height: 1em;
+	padding-bottom: 0.5em;
+	padding-top:0.1em;
+	font-weight:400;
+}
+
+.categories	{
+	padding-bottom:0;
+	padding-top:2.2em;
+}
+
+.categories-red	{
+	padding-bottom:0;
+	padding-top:2.2em;
+	color: #B50938;
+	font-size: 2em;
+}
+
+h2	{
+	font-family: 'Playfair Display', serif;
+	color: #B50938;
+	font-weight: 100;
+	font-size: 2.5em;
+	margin: 0;
+}
+
+h3	{
+	font-family: 'Playfair Display', serif;
+	font-size: 3.3em;
+	padding: 0;
+	margin: 0;
+}
+
+h4	{
+	color: #727272;
+	font-size: 1.3em;
+	padding: 0;
+	margin: 0;
+	padding-top: 0.1em;
+	font-weight: 200;
+	font-family: 'Roboto', san-serif;
+
+}
+
+h5	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	line-height: 1em;
+	padding: 0;
+	margin:0;
+	margin-top: 1.5em;
+}
+
+.list	{
+	text-align: left;
+	font-weight: 100;
+	font-size:1em;
+	line-height: 1.4em;
+	padding: 0;
+	margin:0;
+}
+
+p		{
+	font-family: 'Roboto', san-serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 100;
+	margin:0;
+	padding: 0;
+}
+
+.paragraph	{
+	max-width: 700px;
+}
+
+
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
 .container {
 	padding: 1em;
+	margin: 0em;
+	/*background-color: #F0F0F0;*/
+	/*margin-left:500px;*/
 }
 
-/* listings of photos */
-.listing {
-	margin: 0 0 2em 0;
-	padding: 2em;
-	background: #eee;
+.menu	{
+  overflow: hidden;
+  background-color: #B50938;
+  position: block; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 10%; /* Full width */
+	min-width: 100px;
+	min-height: 100px;
 }
 
-.listing ul {
-	max-width: 25em;
-	padding: 0;
-	list-style-type: none;
-}
-
-.listing li {
-	border-top: 1px solid #ccc;
-}
-
-.listing a {
+.image-grid {
+	margin-top: 0px;
+	margin-right: auto;
+	/*margin-bottom: 0;
+	padding-bottom:0;*/
+	margin-left: auto;
+	/*width: 80%;*/
+	max-width: 1200px; /* will never get wider than 1200px --> */
+	/*padding: 2em;*/
+	background-color: #fff;
 	display: block;
-	padding: 0.5em 0;
-	text-decoration: none;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	height: 200px;
+	min-width: 200px;
 }
 
-
-/* listings with image thumbnails */
-.image-listing ul {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 1em;
-	max-width: 100%;
+.background-image	{
+	background-image: url("../img/nighthawks.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
-
-.image-listing li {
-	border: none;
-}
-
 
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
 @media (min-width: 720px) {
-	
+
 	/* container on larger screens */
 	.container {
 		width: 90%;
-		max-width: 1200px;
-		margin: 2em;
+		max-width: 800px;
+		margin: 0em;
 		margin-right: auto;
 		margin-left: auto;
-		padding: 2em;
-		border: 1px solid #ddd;
+		/*padding: 2em;*/
+		padding-left: 2em;
+		padding-right: 2em;
+		/*border: 1px solid #ddd;*/
+	}
+
+	h3	{
+		font-family: 'Playfair Display', serif;
+		font-size: 3.3em;
+		padding: 0;
+		margin: 0;
+	}
+
+	.artwork-title	{
+		text-align: center;
+		margin-top:1em;
+	}
+
+	.title	{
+		text-align: center;
+		margin-top:1.3em;
+		margin-bottom:0.5em;
+	}
+
+	.artist-title	{
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	.info-grid	{
+		/*grid-template-columns: 1fr 1fr;
+		width: 100%;*/
+		margin-right: auto;
+		margin-top: 3em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 100%;
+		/*height: 50px;*/
+		/*max-width: 180px; /* will never get wider than 1200px --> */*/
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		display: grid;
+		grid-gap:0.5em;
+		align: left;
+
+	}
+
+	.info-grid-one	{
+		grid-columns: 1/2;
+		width: 100%;
+	}
+
+	.info-grid-two	{
+		grid-columns: 2/3;
+		width: 100%;
+	}
+
+	.categories-grid	{
+		display: grid;
+		margin-right: auto;
+		margin-top: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 100%;
+		height: 300px;
+		padding: 0;
+		/*max-width: 180px; /* will never get wider than 1200px --> */*/
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap:1em;
+		align: left;
+	}
+
+	.categories-one	{
+		background: white;
+		grid-columns: 1/2;
+	}
+
+	.categories-two	{
+		background: white;
+		grid-columns: 2/3;
+	}
+
+	.categories-three	{
+		background: white;
+		grid-columns: 3/4;
+	}
+
+	.categories-image	{
+		width: 100%;
+		height: 220px;
+		/*color: grey;*/
+		background-color: grey;
+		margin-right: auto;
+	}
+
+	.categories-writing-box	{
+		background-color: white;
+		padding: 1%;
+		/*margin-left: 5%;*/
+		margin:0;
+		width:100%;
+		height: 80px;
+	}
+
+
+
+
+	.small-categories-grid	{
+		display: grid;
+		margin-right: auto;
+		margin-top: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 100%;
+		/*height: 110px;*/
+		padding: 0;
+		/*max-width: 180px; /* will never get wider than 1200px --> */*/
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-column-gap:1em;
+		grid-row-gap:0.1em;
+		align: left;
+	}
+
+	.small-categories-one	{
+		background: white;
+		grid-columns: 1/2;
+		grid-row: 1/2;
+	}
+
+	.small-categories-two	{
+		background: white;
+		grid-columns: 2/3;
+		grid-row: 1/2;
+	}
+
+	.small-categories-three	{
+		background: white;
+		grid-columns: 3/4;
+		grid-row: 1/2;
+	}
+
+	.small-categories-four	{
+		background: white;
+		grid-columns: 1/2;
+		grid-row: 2/3;
+	}
+
+	.small-categories-five	{
+		background: white;
+		grid-columns: 2/3;
+		grid-row: 2/3;
+	}
+
+	.small-categories-six	{
+		background: white;
+		grid-columns: 3/4;
+		grid-row: 2/3;
+	}
+
+	.small-categories-seven	{
+		background: white;
+		grid-columns: 1/2;
+		grid-row: 3/4;
+	}
+
+	.small-categories-eight	{
+		background: white;
+		grid-columns: 2/3;
+		grid-row: 3/4;
+	}
+
+	.small-categories-nine	{
+		background: white;
+		grid-columns: 3/4;
+		grid-row: 3/4;
+	}
+
+	.small-categories-image	{
+		width: 100%;
+		height: 60px;
+		/*color: grey;*/
+		background-color: grey;
+		margin-right: auto;
+	}
+
+	.small-categories-writing-box	{
+		background-color: white;
+		padding: 1%;
+		/*margin-left: 5%;*/
+		margin:0;
+		width:100%;
+		height: 40px;
+	}
+
+	.color-grid	{
+		/*padding-top: 10%;*/
+		display: grid;
+		margin-right: auto;
+		margin-top: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 30%;
+		height: 50px;
+		max-width: 180px; /* will never get wider than 1200px --> */
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap:0.5em;
+		align: left;
+		/*grid-gap:1em;*/
+	}
+
+	.color-one {
+		background: red;
+		grid-columns: 1/2;
+		/*border-right: 2px solid #BABABA;*/
+	}
+
+	.color-one {
+		background: blue;
+		grid-columns: 2/3;
+		/*border-right: 2px solid #BABABA;*/
+	}
+
+	.color-one {
+		background: green;
+		grid-columns: 3/4;
+		/*border-right: 2px solid #BABABA;*/
+	}
+
+
+	.list-grid {
+		margin-top: 0px;
+		margin-right: auto;
+		/*margin-bottom: 0;
+		padding-bottom:0;*/
+		margin-left: auto;
+		/*width: 80%;*/
+		max-width: 1200px; /* will never get wider than 1200px --> */
+		/*padding: 2em;*/
+		background-color: #fff;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		height: 200px;
+		min-width: 200px;
+	}
+
+	.list-grid-image	{
+		background-image: url("../img/nighthawks.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.image-grid {
+		margin-top: 0px;
+		margin-right: auto;
+		/*margin-bottom: 0;
+		padding-bottom:0;*/
+		margin-left: auto;
+		/*width: 80%;*/
+		max-width: 1200px; /* will never get wider than 1200px --> */
+		/*padding: 2em;*/
+		background-color: #fff;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		height: 400px;;
+		min-width: 200px;
+	}
+
+	.background-image	{
+		background-image: url("../img/nighthawks.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.footer {
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: auto;
+			width: 100%;
+			/*min-width: 10000000px;*/
+			/*max-width: 1200px; /* will never get wider than 1200px --> */*/
+			/*padding: 2em;*/
+			background-color: #B50938;
+			height: 80px;
+			/*padding: 0.5em 1em 1em 1em;*/
+			/*grid-gap:0.5em;*/
+			/*margin-top: 50px;*/
+
+	}
+
+	.menu	{
+	  overflow: hidden;
+	  background-color: #B50938;
+	  position: block; /* Set the navbar to fixed position */
+	  top: 0; /* Position the navbar at the top of the page */
+	  width: 10%; /* Full width */
+		min-width: 140px;
+		min-height: 140px;
 	}
 
 } /* end media query */
