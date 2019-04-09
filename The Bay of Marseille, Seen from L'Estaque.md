@@ -1,4 +1,5 @@
 ---
+layout: page
 title: The Bay of Marseille, Seen from L'Estaque
 artist: Paul Cézanne
 location: Paris
