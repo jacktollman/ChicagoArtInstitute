@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: At the Moulin Rouge
 artist: Henri de Toulouse-Lautrec
 location: France
