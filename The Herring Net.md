@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: The Herring Net
 artist: Winslow Homer
 location: United States
