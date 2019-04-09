@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: American Gothic
 artist: Grant Wood
 location: United States,
