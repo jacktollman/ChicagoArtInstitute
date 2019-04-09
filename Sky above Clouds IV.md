@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Sky above Clouds IV
 artist: Georgia O'Keeffe
 location: United States
