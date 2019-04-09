@@ -1,4 +1,4 @@
 ---
-template: home
+layout: home
 ---
 
