@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Nighthawks
 artist: Edward Hopper
 location: Midwest
