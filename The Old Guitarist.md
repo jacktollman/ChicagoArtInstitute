@@ -1,4 +1,5 @@
 ---
+layout: page
 title: The Old Guitarist
 artist: Pablo Picasso
 location: Spain
