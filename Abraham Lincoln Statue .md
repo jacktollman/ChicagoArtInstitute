@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Abraham Lincoln
 artist: Daniel Chester French
 location: Paris
