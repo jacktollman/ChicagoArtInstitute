@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: At the Circus Fernando, the Rider
 artist: Henri de Toulouse-Lautrec
 location: France
