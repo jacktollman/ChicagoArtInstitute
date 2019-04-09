@@ -1,4 +1,4 @@
 ---
-template: categories
+layout: categories
 ---
 
