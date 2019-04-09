@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: The Drinkers
 artist: Vincent van Gogh
 location: Netherlands
