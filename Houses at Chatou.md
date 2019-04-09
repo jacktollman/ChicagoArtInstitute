@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Houses at Chatou
 artist: Maurice de Vlaminck
 location: France
