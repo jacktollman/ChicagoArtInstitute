@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Madame Cézanne in a Yellow Chair
 artist: Paul Cézanne
 location: France
