@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bathers by a River
+title: bathers by a river
 artist: Henri Matisse
 location: Paris
 period: 1909
