@@ -1,5 +1,5 @@
  ---
-layout: home
+layout: page
 title: Ready-to-Wear.md
 artist: Stuart Davis
 location: United States
