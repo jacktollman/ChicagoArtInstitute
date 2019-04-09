@@ -1,4 +1,5 @@
 ---
+layout: page
 title: The Millinery Shop
 artist: Edgar Degas
 location: Paris
