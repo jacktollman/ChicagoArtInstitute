@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Woman at Her Toilette
 artist: Berthe Morisot
 location: Paris
