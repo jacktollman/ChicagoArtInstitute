@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: The Bewitched Mill
 artist: Franz Marc
 location: Germany
