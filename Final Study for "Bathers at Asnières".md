@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Final Study for "Bathers at Asnières"
 artist: Georges Seurat
 location: France
