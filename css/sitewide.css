@@ -24,6 +24,8 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Playfair+Display"
 			rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
 
 
 
@@ -31,7 +33,7 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 /* start project-specifc styles below this line */
 
 body {
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
@@ -39,7 +41,7 @@ body {
 
 
 h1	{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.4em;
 	line-height: 1em;
 	padding-bottom: 0.5em;
@@ -47,28 +49,30 @@ h1	{
 	font-weight:400;
 }
 
-.categories	{
-	padding-bottom:0;
-	padding-top:2.2em;
-}
 
 .categories-red	{
 	padding-bottom:0;
-	padding-top:2.2em;
+	padding:0;
+	margin-top: 1px;;
+	/*padding-top:2.2em;*/
 	color: #B50938;
-	font-size: 2em;
+	/*font-size: 2em;*/
+	font-weight: 600;
+	font-size: 1.7em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
 h2	{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #B50938;
-	font-weight: 100;
+	font-weight: 800;
 	font-size: 2.5em;
 	margin: 0;
 }
 
 h3	{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3.3em;
 	padding: 0;
 	margin: 0;
@@ -81,12 +85,12 @@ h4	{
 	margin: 0;
 	padding-top: 0.1em;
 	font-weight: 200;
-	font-family: 'Roboto', san-serif;
+	font-family: 'Quicksand', sans-serif;
 
 }
 
 h5	{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 0.9em;
 	line-height: 1em;
 	padding: 0;
@@ -104,7 +108,7 @@ h5	{
 }
 
 p		{
-	font-family: 'Roboto', san-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-weight: 100;
@@ -116,6 +120,31 @@ p		{
 	max-width: 700px;
 }
 
+.painting-title	{
+	font-size: 1.3em;
+	padding: 0;
+	padding-top: 0.1em;
+	margin: 0;
+	/*padding-top: 0.1em;*/
+	font-weight: 800;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.2em;
+
+	/*text-transform: uppercase;*/
+}
+
+.painter-title	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1em;
+	padding: 0;
+	margin:0;
+	margin-top: 0.5em;
+	color: #727272;
+
+
+}
+
 
 
 /*	Generally, you will only want one container element in
@@ -124,7 +153,7 @@ p		{
 	something wrong.
 */
 .container {
-	padding: 1em;
+	/*padding: 1em;*/
 	margin: 0em;
 	/*background-color: #F0F0F0;*/
 	/*margin-left:500px;*/
@@ -133,34 +162,43 @@ p		{
 .menu	{
   overflow: hidden;
   background-color: #B50938;
-  position: block; /* Set the navbar to fixed position */
+  /*position: block; /* Set the navbar to fixed position */*/
   top: 0; /* Position the navbar at the top of the page */
   width: 10%; /* Full width */
 	min-width: 100px;
 	min-height: 100px;
 }
 
+.categories	{
+	padding-bottom:0;
+	/*padding-top:2.2em;*/
+}
+
 .image-grid {
-	margin-top: 0px;
-	margin-right: auto;
+	margin: auto;
 	/*margin-bottom: 0;
 	padding-bottom:0;*/
-	margin-left: auto;
+	/*margin-left: auto;*/
 	/*width: 80%;*/
+	/*display: inline-block;*/
+	margin-left: auto;
+ 	margin-right: auto;
 	max-width: 1200px; /* will never get wider than 1200px --> */
 	/*padding: 2em;*/
 	background-color: #fff;
 	display: block;
+	align-items: center;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
-	height: 200px;
+	/*height: 400px;*/
 	min-width: 200px;
 }
 
 .background-image	{
-	background-image: url("../img/nighthawks.jpg");
+	background-image: url("../img/Vincent_van_Gogh_-_Van_Goghs_Bedroom_in_Arles_-_Google_Art_Project-1.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
+
 }
 
 
@@ -171,7 +209,7 @@ p		{
 	/* container on larger screens */
 	.container {
 		width: 90%;
-		max-width: 800px;
+		max-width: 900px;
 		margin: 0em;
 		margin-right: auto;
 		margin-left: auto;
@@ -182,11 +220,17 @@ p		{
 	}
 
 	h3	{
-		font-family: 'Playfair Display', serif;
+		font-family: 'Quicksand', sans-serif;
 		font-size: 3.3em;
 		padding: 0;
 		margin: 0;
 	}
+
+	/*.painter-title	{
+		text-transform: uppercase;
+		font-size: 0.2;
+	}*/
+
 
 	.artwork-title	{
 		text-align: center;
@@ -195,13 +239,14 @@ p		{
 
 	.title	{
 		text-align: center;
-		margin-top:1.3em;
+		/*margin-top:1.3em;*/
 		margin-bottom:0.5em;
 	}
 
 	.artist-title	{
 		text-align: center;
 		margin-bottom: 1em;
+		font-weight: 100;
 	}
 
 	.info-grid	{
@@ -235,6 +280,60 @@ p		{
 		width: 100%;
 	}
 
+	.two-grid	{
+		display: grid;
+		margin-right: auto;
+		margin-top: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 100%;
+		/*height: 300px;*/
+		padding: 0;
+		/*max-width: 180px; /* will never get wider than 1200px --> */*/
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
+		grid-gap:1em;
+		align: left;
+		margin-top: 4em;
+
+	}
+
+	.two-grid-result	{
+		background: white;
+		grid-columns: span 1;
+		/*grid-row: 1/2;*/
+	}
+
+	.top-two-grid	{
+		display: grid;
+		margin-right: auto;
+		margin-top: 4em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		width: 100%;
+		/*height: 300px;*/
+		padding: 0;
+		/*max-width: 180px; /* will never get wider than 1200px --> */*/
+		/*padding: 2em;*/
+		/*background-color: #fff;*/
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
+		grid-gap:1em;
+		align: left;
+	}
+
+	.top-two-grid-result	{
+		background: white;
+		grid-columns: span 1;
+		/*grid-row: 1/2;*/
+	}
+
+
+
 	.categories-grid	{
 		display: grid;
 		margin-right: auto;
@@ -242,31 +341,57 @@ p		{
 		margin-bottom: 2em;
 		margin-left: 0;
 		width: 100%;
-		height: 300px;
+		/*height: auto;*/
+		/*height: 300px;*/
 		padding: 0;
 		/*max-width: 180px; /* will never get wider than 1200px --> */*/
 		/*padding: 2em;*/
 		/*background-color: #fff;*/
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
 		grid-gap:1em;
 		align: left;
 	}
 
-	.categories-one	{
+	.categories-result	{
 		background: white;
-		grid-columns: 1/2;
+		grid-columns: span 1;
+		/*grid-row: 1/2;*/
 	}
-
+/*
 	.categories-two	{
 		background: white;
 		grid-columns: 2/3;
+		grid-row: 1/2;
+
 	}
 
 	.categories-three	{
 		background: white;
 		grid-columns: 3/4;
+		grid-row: 1/2;
+
 	}
+
+	.categories-four	{
+		background: white;
+		grid-columns: 1/2;
+		grid-row: 2/3;
+	}
+
+	.categories-five	{
+		background: white;
+		grid-columns: 2/3;
+		grid-row: 2/3;
+
+	}
+
+	.categories-six	{
+		background: white;
+		grid-columns: 3/4;
+		grid-row: 2/3;
+	}*/
 
 	.categories-image	{
 		width: 100%;
@@ -282,7 +407,8 @@ p		{
 		/*margin-left: 5%;*/
 		margin:0;
 		width:100%;
-		height: 80px;
+		/*height:auto;*/
+		/*height: 80px;*/
 	}
 
 
@@ -362,6 +488,18 @@ p		{
 		grid-row: 3/4;
 	}
 
+	.small-categories-ten	{
+		background: white;
+		grid-columns: 1/2;
+		grid-row: 4/5;
+	}
+
+	.small-categories-eleven	{
+		background: white;
+		grid-columns: 2/3;
+		grid-row: 4/5;
+	}
+
 	.small-categories-image	{
 		width: 100%;
 		height: 60px;
@@ -397,6 +535,7 @@ p		{
 		align: left;
 		/*grid-gap:1em;*/
 	}
+
 
 	.color-one {
 		background: red;
@@ -458,6 +597,7 @@ p		{
 	}
 
 	.background-image	{
+		/*background-image: url("../img/Vincent_van_Gogh_-_Van_Goghs_Bedroom_in_Arles_-_Google_Art_Project-1.jpg");*/
 		background-image: url("../img/nighthawks.jpg");
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -482,11 +622,25 @@ p		{
 	.menu	{
 	  overflow: hidden;
 	  background-color: #B50938;
-	  position: block; /* Set the navbar to fixed position */
+	  /*position: block; /* Set the navbar to fixed position */*/
 	  top: 0; /* Position the navbar at the top of the page */
 	  width: 10%; /* Full width */
 		min-width: 140px;
 		min-height: 140px;
+	}
+
+	.button	{
+		width:16.8%;
+		height:50px;
+		background-color: #E7E7E7;
+		padding: 0.25px;
+		padding-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.categories	{
+		padding-bottom:0;
+		/*padding-top:2.2em;*/
 	}
 
 } /* end media query */
