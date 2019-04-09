@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Untitled (Painting)
 artist: Mark Rothko
 location: United States
