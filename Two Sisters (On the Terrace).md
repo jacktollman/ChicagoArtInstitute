@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Two Sisters (On the Terrace)
 artist: Pierre-Auguste Renoir
 location: France
