@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Bathers by a River
 artist: Henri Matisse
 location: Paris
