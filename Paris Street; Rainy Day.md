@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Paris Street; Rainy Day
 artist: Gustave Caillebotte 
 location: Paris
