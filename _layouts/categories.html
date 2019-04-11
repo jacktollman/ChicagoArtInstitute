@@ -76,29 +76,23 @@
 				<h1 class="categories-red"> MODERNISM </h1>
 			</div>
 					<div class ="categories-grid">
+						{% for p in site.pages %}
+						{% if p.style contains "Modernism" %}
 							<div class ="categories-result">
 								
-								
-							{% for p in site.pages %}
-								{% if p.style contains "Modernism" %}
-<!-- 								    <li> -->
-									<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-									</a>
-<!-- 									</div> -->
-<!-- 								    </li> -->
-								{% endif %}
-							{% endfor %} 
-								
-				
-							</div>
-
-						
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
+							</div>	
+						{% endif %}
+						{% endfor %} 
 					</div>
 
 
