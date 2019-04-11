@@ -46,7 +46,9 @@
 			<div class="two-grid-result">
 				<h1 class="categories-red"> MODERNISM </h1>
 			</div>
-					<div class ="categories-grid">
+			
+			
+<!-- 					<div class ="categories-grid">
 							<div class ="categories-result">
 								
 								
@@ -70,10 +72,40 @@
 
 						
 					</div>
-
+ -->
 			
+	
+	
 			<div class="two-grid-result">
-				<h1 class="categories-red"> MODERNISMe </h1>
+				<h1 class="categories-red"> POST-IMPRESIONISM </h1>
+			</div>
+					<div class ="categories-grid">
+						{% for p in site.pages %}
+						{% if p.style contains "Post-Impresionism" %}
+							<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
+							</div>	
+						{% endif %}
+						{% endfor %} 
+					</div>
+
+	
+	
+	
+	
+	
+			<div class="two-grid-result">
+				<h1 class="categories-red"> MODERNISM </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
