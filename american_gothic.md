@@ -2,9 +2,9 @@
 layout: page
 title: American Gothic
 artist: Grant Wood
-location: United States,
+location: United States
 period: 1930
-style: Modernism,
+style: Modernism
 medium: Oil on Beaver Board
 origin: United States
 subject: Portrait
