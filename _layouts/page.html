@@ -25,7 +25,7 @@
 	<div class="container">
 
 		<div class="menu">
-			<img src="img//Art-Institute" id="logo"/>
+			<img src="{{site.baseurl}}/img//Art-Institute" id="logo"/>
 		</div>
 		<div class="button">
 				<h1 class="categories"> HOME </h1>
@@ -37,6 +37,7 @@
 		<h2 class="artist-title"> {{page.artist}}</h2>
 
 		<div class="image-grid background-image">
+			<img src="{{site.baseurl}}{{page.image}}" alt="image of {{page.title}}">
 		</div>
 
 		<div class="info-grid">
