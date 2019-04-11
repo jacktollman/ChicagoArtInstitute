@@ -30,6 +30,7 @@
 		
 		<div class="button">
 				<h1 class="categories"> HOME </h1>
+				<a href="{{ site.baseurl }}{{ p.url }}">
 		</div>
 
 		<h3 class="title"> Origin</h3>
@@ -69,6 +70,33 @@
 						
 					</div>
 
+			
+			<div class="two-grid-result">
+				<h1 class="categories-red"> MODERNISM </h1>
+			</div>
+					<div class ="categories-grid">
+							<div class ="categories-result">
+								
+								
+							{% for p in site.pages %}
+								{% if p.style contains "Modernism" %}
+<!-- 								    <li> -->
+									<a href="{{ site.baseurl }}{{ p.url }}">
+									<div class ="categories-image">
+									</div>
+									<div class ="categories-writing-box">
+										<p class="painting-title"> {{ p.title }} </p>
+										<p class="painter-title"> {{ p.artist}} </p>
+									</div>									</a>
+<!-- 								    </li> -->
+								{% endif %}
+							{% endfor %} 
+								
+				
+							</div>
+
+						
+					</div>
 
 
 
