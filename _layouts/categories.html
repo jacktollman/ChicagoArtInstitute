@@ -40,8 +40,9 @@
 <!-- 		<h5 class="list"> FRANCE | UNITED STATES | NETHERLANDS | SPAIN | GERMANY </h5>
  -->
 		<div class="two-grid">
+			
 			<div class="two-grid-result">
-				<h1 class="categories-red"> France </h1>
+				<h1 class="categories-red"> MODERNISM </h1>
 			</div>
 					<div class ="categories-grid">
 							<div class ="categories-result">
@@ -49,11 +50,11 @@
 								
 							{% for p in site.pages %}
 								{% if p.style contains "Modernism" %}
-								    <li>
+<!-- 								    <li> -->
 									<a href="{{ site.baseurl }}{{ p.url }}">
 									  {{ p.title }}
 									</a>
-								    </li>
+<!-- 								    </li> -->
 								{% endif %}
 							{% endfor %} 
 								
