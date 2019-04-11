@@ -48,7 +48,7 @@
 								
 								
 							{% for p in site.pages %}
-								{% if p.style=="Modernism" %}
+								{% if p.style contains "Modernism" %}
 								    <li>
 									<a href="{{ site.baseurl }}{{ p.url }}">
 									  {{ p.title }}
