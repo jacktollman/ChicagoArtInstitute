@@ -37,14 +37,26 @@
 		<!-- <h1 class="categories"> Other Locations </h1> -->
 
 		<h1 class="categories"> Categories </h1>
-		<h5 class="list"> FRANCE | UNITED STATES | NETHERLANDS | SPAIN | GERMANY </h5>
-
+<!-- 		<h5 class="list"> FRANCE | UNITED STATES | NETHERLANDS | SPAIN | GERMANY </h5>
+ -->
 		<div class="two-grid">
 			<div class="two-grid-result">
 				<h1 class="categories-red"> France </h1>
 			</div>
 					<div class ="categories-grid">
 							<div class ="categories-result">
+								
+								
+							{% for p in site.pages %}
+								{% if p.period=="1930s" %}
+								    <li>
+									<a href="{{ site.baseurl }}{{ p.url }}">
+									  {{ p.title }}
+									</a>
+								    </li>
+								{% endif %}
+							{% endfor %} 
+								
 									<div class ="categories-image">
 									</div>
 									<div class ="categories-writing-box">
@@ -53,208 +65,8 @@
 									</div>
 							</div>
 
-							<div class ="categories-result">
-									<div class ="categories-image">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">Paris Street; Rainy Day</p>
-											<p class="painter-title">Gustave Caillebotte</p>
-										</div>
-									</div>
-							</div>
-
-							<div class ="categories-result">
-									<div class ="categories-image">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">The Bay of Marseille, Seen from L'Estaque</p>
-											<p class="painter-title">Paul Cézanne</p>
-										</div>
-									</div>
-							</div>
-
-							<div class ="categories-result">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title">The Millinery Shop</p>
-										<p class="painter-title">Edgar Degas</p>
-									</div>
-							</div>
-
-							<div class ="categories-result">
-									<div class ="categories-image">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">The Child's Bath</p>
-											<p class="painter-title">Mary Cassatt</p>
-										</div>
-									</div>
-							</div>
-
-							<div class ="categories-result">
-									<div class ="categories-image">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">Woman at Her Toilette</p>
-											<p class="painter-title">Berthe Morisot</p>
-										</div>
-									</div>
-							</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">Two Sisters (On the Terrace)</p>
-											<p class="painter-title">Pierre-Auguste Renoir</p>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">Madame Cézanne in a Yellow Chair</p>
-												<p class="painter-title">Paul Cézanne</p>
-											</div>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">At the Circus Fernando, the rider</p>
-												<p class="painter-title">Henri de Toulouse-Lautrec</p>
-											</div>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">Final Study for "Bathers at Asnières"</p>
-											<p class="painter-title">Georges Seurat</p>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">Houses at Chatou</p>
-												<p class="painter-title">Maurice de Vlaminck</p>
-											</div>
-										</div>
-								</div>
-						</div>
-
-
-					<h1 class="categories-red"> United States  </h1>
-						<div class ="categories-grid">
-								<div class ="categories-result">
-										<div class ="categories-image">
-										</div>
-										<div class ="categories-writing-box">
-											<p class="painting-title">Nighthawks</p>
-											<p class="painter-title">Edward Hopper</p>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">American Gothic</p>
-												<p class="painter-title">Grant Wood</p>
-											</div>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">Sky above Clouds IV</p>
-												<p class="painter-title">Georgia O'Keeffe</p>
-											</div>
-										</div>
-								</div>
-
-								<div class ="categories-result">
-										<div class ="categories-image">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">Ready-to-Wear</p>
-												<p class="painter-title">Stuart Davis</p>
-											</div>
-										</div>
-								</div>
-						</div>
-
-
-
-						<h1 class="categories-red"> Netherlands  </h1>
-							<div class ="categories-grid">
-									<div class ="categories-result">
-											<div class ="categories-image">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title">The Bedroom</p>
-												<p class="painter-title">Vincent van Gogh</p>
-											</div>
-									</div>
-
-									<div class ="categories-result">
-											<div class ="categories-image">
-												<div class ="categories-image">
-												</div>
-												<div class ="categories-writing-box">
-													<p class="painting-title">The Drinkers</p>
-													<p class="painter-title">Vincent van Gogh</p>
-												</div>
-											</div>
-									</div>
-							</div>
-
-
-							<h1 class="categories-red"> Spain  </h1>
-								<div class ="categories-grid">
-										<div class ="categories-result">
-												<div class ="categories-image">
-												</div>
-												<div class ="categories-writing-box">
-													<p class="painting-title">The Old Guitarist</p>
-													<p class="painter-title">Pablo Picasso</p>
-												</div>
-										</div>
-								</div>
-
-
-							<h1 class="categories-red"> Germany  </h1>
-								<div class ="categories-grid">
-										<div class ="categories-result">
-												<div class ="categories-image">
-												</div>
-												<div class ="categories-writing-box">
-													<p class="painting-title">The Bewitched Mill</p>
-													<p class="painter-title">Franz Marc</p>
-												</div>
-										</div>
-								</div>
-				</div>
+						
+					</div>
 
 
 
