@@ -400,7 +400,7 @@ p		{
 		background-color: blue;
 		margin-right: auto;
 		display: flex;
-		object-fit: contain;
+		object-fit: cover;
 		justify-content: center;
 		align-items: center;
 		overflow: hidden
