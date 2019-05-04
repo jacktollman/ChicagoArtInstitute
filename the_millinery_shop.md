@@ -2,7 +2,7 @@
 layout: page
 title: The Millinery Shop
 artist: Edgar Degas
-location: Paris
+origin: Paris
 period: 1879
 decade: one-eight-seven
 style: Impressionism
