@@ -509,8 +509,9 @@ p		{
 		width: 100%;
 		height: 60px;
 		/*color: grey;*/
-		background-color: grey;
+		background-color: #CECECE;
 		margin-right: auto;
+		text-align: center;
 	}
 
 	.small-categories-writing-box	{
