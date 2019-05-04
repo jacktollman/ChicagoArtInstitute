@@ -437,12 +437,18 @@ p		{
 		grid-column-gap:1em;
 		grid-row-gap:0.1em;
 		align: left;
+		
+		background-color: #CECECE;
+		text-align: center;
+		
+		
 	}
 
 	.small-categories-one	{
 		background: white;
 		grid-columns: 1/2;
 		grid-row: 1/2;
+		
 	}
 
 	.small-categories-two	{
