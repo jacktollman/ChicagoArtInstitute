@@ -2,7 +2,7 @@
 layout: page
 title: Houses at Chatou
 artist: Maurice de Vlaminck
-location: France
+origin: France
 period: 1905
 decade: one-nine-zero
 style: Fauvism
