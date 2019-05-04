@@ -4,6 +4,7 @@ title: The Herring Net
 artist: Winslow Homer
 location: United States
 period: 1885
+decade: one-eight-eight
 style: Realism
 medium: Oil on canvas
 image: /img/The Herring Net.jpg
