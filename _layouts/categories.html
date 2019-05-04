@@ -53,11 +53,12 @@
 					<div class ="categories-grid">
 						{% for p in site.pages %}
 						{% if p.style contains "Post" %}
-							<div class ="categories-result">
+								<div class ="categories-result">
 								
 	<!-- 								    <li> -->
 										<a href="{{ site.baseurl }}{{ p.url }}">
 											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
 											</div>
 											<div class ="categories-writing-box">
 												<p class="painting-title"> {{ p.title }} </p>
@@ -84,6 +85,7 @@
 	<!-- 								    <li> -->
 										<a href="{{ site.baseurl }}{{ p.url }}">
 											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
 											</div>
 											<div class ="categories-writing-box">
 												<p class="painting-title"> {{ p.title }} </p>
@@ -105,16 +107,17 @@
 						{% if p.style contains "Point" %}
 							<div class ="categories-result">
 								
-<!-- 								    <li> -->
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
-<!-- 								    </li> -->
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
@@ -155,15 +158,19 @@
 					<div class ="categories-grid">
 						{% for p in site.pages %}
 						{% if p.style contains "Expressionism" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
@@ -176,15 +183,19 @@
 					<div class ="categories-grid">
 						{% for p in site.pages %}
 						{% if p.style contains "Fauvism" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
@@ -198,20 +209,23 @@
 					<div class ="categories-grid">
 						{% for p in site.pages %}
 						{% if p.style contains "Abstract" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
 					</div>
-			
 
 
 
