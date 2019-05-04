@@ -4,6 +4,7 @@ title: Bathers By a River
 artist: Henri Matisse
 location: Paris
 period: 1909
+decade: one-nine-one
 style: Fauvism
 medium: Oil on canvas
 origin: France
