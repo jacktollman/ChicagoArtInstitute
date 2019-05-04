@@ -2,7 +2,7 @@
 layout: page
 title: At the Circus Fernando, the Rider
 artist: Henri de Toulouse-Lautrec
-location: France
+origin: France
 period: 1887
 decade: one-eight-eight
 style: Post-Impressionism
