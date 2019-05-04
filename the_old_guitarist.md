@@ -2,7 +2,7 @@
 layout: page
 title: The Old Guitarist
 artist: Pablo Picasso
-location: Spain
+origin: Spain
 period: 1904
 decade: one-nine-zero
 style: Expressionism
