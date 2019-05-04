@@ -4,6 +4,7 @@ title: The Millinery Shop
 artist: Edgar Degas
 location: Paris
 period: 1879
+decade: one-eight-seven
 style: Impressionism
 medium: Oil on canvas
 origin: France
