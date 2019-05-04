@@ -2,7 +2,7 @@
 layout: page
 title: Two Sisters (On the Terrace)
 artist: Pierre-Auguste Renoir
-location: France
+origin: France
 period: 1881
 decade: one-eight-eight
 style: Impressionism
