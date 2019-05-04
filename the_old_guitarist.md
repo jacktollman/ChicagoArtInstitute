@@ -8,7 +8,7 @@ style: Expressionism
 medium: Oil on panel
 origin: United States
 subject: Portrait
-image: /img/1280px-Nighthawks_by_Edward_Hopper_1942.jpg
+image: /img/The Old Guitarist.jpg
 ---
 
 
