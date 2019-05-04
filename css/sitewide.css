@@ -247,9 +247,9 @@ p		{
 		text-align: center;
 		/*margin-top:1.3em;*/
 		margin-bottom:0.5em;
-		font-weight:100;
+		font-weight:400;
 		font-size:2.8;
-		color: blue;
+		color: grey;
 	}
 
 	.artist-title	{
