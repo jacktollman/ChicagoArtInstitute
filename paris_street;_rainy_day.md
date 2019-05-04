@@ -9,6 +9,7 @@ style: Impressionism
 medium: Oil on canvas
 origin: United States
 subject: cityscape
+featured: yes
 image: /img/Paris Street; Rainy Day.jpg
 ---
 
