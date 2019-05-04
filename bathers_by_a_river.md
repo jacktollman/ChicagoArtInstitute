@@ -8,7 +8,7 @@ style: Fauvism
 medium: Oil on canvas
 origin: France
 subject: cityscape
-image: /img/1280px-Nighthawks_by_Edward_Hopper_1942.jpg
+image: /img/Bathers by a River.jpg
 ---
 
 
