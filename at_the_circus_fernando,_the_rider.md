@@ -4,6 +4,7 @@ title: At the Circus Fernando, the Rider
 artist: Henri de Toulouse-Lautrec
 location: France
 period: 1887
+decade: one-eight-eight
 style: Post-Impressionism
 medium: Oil on canvas
 image: /img/At the Circus Fernando, the rider.jpg
