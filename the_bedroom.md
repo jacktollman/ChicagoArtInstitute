@@ -4,6 +4,7 @@ title: The Bedroom
 artist: Vincent van Gogh
 location: Netherlands,
 period: 1889
+decade: one-eight-nine
 style: Post-Impressionism
 medium: Oil on canvas
 subject: landscape
