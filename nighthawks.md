@@ -9,7 +9,7 @@ style: Modernism, Social realism
 medium: Oil on canvas
 origin: United States
 subject: cityscape
-featured: yes
+featured: homepage
 image: /img/1280px-Nighthawks_by_Edward_Hopper_1942.jpg
 ---
 
