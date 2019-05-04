@@ -4,6 +4,7 @@ title: Untitled (Painting)
 artist: Mark Rothko
 location: United States
 period: 1953
+decade: one-nine-five
 style: Fauvism
 medium: Oil on canvas
 image: /img/Untitled (Painting).jpg
