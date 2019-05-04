@@ -39,8 +39,8 @@
 		<!-- <h1 class="categories"> Other Locations </h1> -->
 
 		<h1 class="categories"> Categories </h1>
-              <!-- 		<h5 class="list"> FRANCE | UNITED STATES | NETHERLANDS | SPAIN | GERMANY </h5>
-               -->
+<!-- 		<h5 class="list"> FRANCE | UNITED STATES | NETHERLANDS | SPAIN | GERMANY </h5>
+ -->
 		<div class="two-grid">
 			
 			
@@ -48,43 +48,44 @@
 	
 	
 			<div class="two-grid-result">
-				  <h1 class="categories-red"> 1870 </h1>
-			</div>
-              <div class ="categories-grid">
-                {% for p in site.pages %}
-                {% if p.period contains "187" %}
-                  <div class ="categories-result">
-
-      <!-- 								    <li> -->
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          <div class ="categories-image">
-                          </div>
-                          <div class ="categories-writing-box">
-                            <p class="painting-title"> {{ p.title }} </p>
-                            <p class="painter-title"> {{ p.artist}} </p>
-                          </div>
-                        </a>
-      <!-- 								    </li> -->
-                  </div>	
-                {% endif %}
-                {% endfor %} 
-              </div>
-
-	
-  
-			
-			
-						<div class="two-grid-result">
-				<h1 class="categories-red"> 1880 </h1>
+				<h1 class="categories-red"> POST-IMPRESIONISM </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.period contains "188" %}
+						{% if p.style contains "Post" %}
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
+							</div>	
+						{% endif %}
+						{% endfor %} 
+					</div>
+
+	
+			
+			
+						<div class="two-grid-result">
+				<h1 class="categories-red"> IMPRESIONISM </h1>
+			</div>
+					<div class ="categories-grid">
+						{% for p in site.pages %}
+						{% if p.style == "Impressionism" %}
 							<div class ="categories-result">
 								
 	<!-- 								    <li> -->
 										<a href="{{ site.baseurl }}{{ p.url }}">
 											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
 											</div>
 											<div class ="categories-writing-box">
 												<p class="painting-title"> {{ p.title }} </p>
@@ -99,23 +100,24 @@
 			
 			
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1890 </h1>
+				<h1 class="categories-red"> POINTILLISM </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.period contains "1892" %}
+						{% if p.style contains "Point" %}
 							<div class ="categories-result">
 								
-<!-- 								    <li> -->
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
-<!-- 								    </li> -->
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
@@ -125,11 +127,11 @@
 	
 	
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1900 </h1>
+				<h1 class="categories-red"> MODERNISM </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.period contains "190" %}
+						{% if p.style contains "Modernism" %}
 							<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -151,112 +153,81 @@
 
 			
 						<div class="two-grid-result">
-				<h1 class="categories-red"> 1910 </h1>
+				<h1 class="categories-red"> EXPRESSIONISM </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.period contains "191" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
+						{% if p.style contains "Expressionism" %}
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
 					</div>
 
 
+			<div class="two-grid-result">
+				<h1 class="categories-red"> FAUVISM </h1>
+			</div>
+					<div class ="categories-grid">
+						{% for p in site.pages %}
+						{% if p.style contains "Fauvism" %}
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
+							</div>	
+						{% endif %}
+						{% endfor %} 
+					</div>
 			
 			
 			
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1930 </h1>
+				<h1 class="categories-red"> ABSTRACT </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.period contains "193" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-			
-
-			<div class="two-grid-result">
-				<h1 class="categories-red"> 1940 </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.period contains "194" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-          
-          
-          
-          			<div class="two-grid-result">
-				<h1 class="categories-red"> 1950 </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.period contains "195" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
+						{% if p.style contains "Abstract" %}
+								<div class ="categories-result">
+								
+	<!-- 								    <li> -->
+										<a href="{{ site.baseurl }}{{ p.url }}">
+											<div class ="categories-image">
+												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
+											</div>
+											<div class ="categories-writing-box">
+												<p class="painting-title"> {{ p.title }} </p>
+												<p class="painter-title"> {{ p.artist}} </p>
+											</div>
+										</a>
+	<!-- 								    </li> -->
 							</div>	
 						{% endif %}
 						{% endfor %} 
 					</div>
 
 
-  			<div class="two-grid-result">
-				<h1 class="categories-red"> 1960 </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.period contains "196" %}
-							<div class ="categories-result">
-								<a href="{{ site.baseurl }}{{ p.url }}">
-									<div class ="categories-image">
-									</div>
-									<div class ="categories-writing-box">
-										<p class="painting-title"> {{ p.title }} </p>
-										<p class="painter-title"> {{ p.artist}} </p>
-									</div>
-								</a>
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
 
 
 	</div>
