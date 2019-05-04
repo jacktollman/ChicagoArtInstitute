@@ -4,6 +4,7 @@ title: The Bewitched Mill
 artist: Franz Marc
 location: Germany
 period: 1913
+decade: one-nine-one
 style: Expressionism
 medium: Oil on canvas
 image: /img/The Bewitched Mill.jpg
