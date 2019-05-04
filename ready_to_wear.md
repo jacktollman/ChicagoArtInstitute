@@ -4,6 +4,7 @@ title: Ready-to-Wear.md
 artist: Stuart Davis
 location: United States
 period: 1955
+decade: one-nine-five
 style: Abstract
 medium: Oil on canvas
 image: /img/Ready-to-Wear.jpg
