@@ -4,6 +4,7 @@ title: Nighthawks
 artist: Edward Hopper
 location: Midwest
 period: 1940
+decade: one-nine-four
 style: Modernism, Social realism
 medium: Oil on canvas
 origin: United States
