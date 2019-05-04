@@ -2,7 +2,7 @@
 layout: page
 title: The Bedroom
 artist: Vincent van Gogh
-location: Netherlands
+origin: Netherlands
 period: 1889
 decade: one-eight-nine
 style: Post-Impressionism
