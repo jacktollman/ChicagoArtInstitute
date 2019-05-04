@@ -4,6 +4,7 @@ title: American Gothic
 artist: Grant Wood
 location: United States
 period: 1930
+decade: one-nine-three
 style: Modernism
 medium: Oil on Beaver Board
 origin: United States
