@@ -4,6 +4,7 @@ title: Still Life with Geranium
 artist: Henri Matisse
 location: France
 period: 1906
+decade: one-nine-zero
 style: Fauvism
 medium: Oil on canvas
 image: /img/American-Gothic.jpg
