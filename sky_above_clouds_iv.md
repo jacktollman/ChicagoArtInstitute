@@ -6,7 +6,7 @@ location: United States
 period: 1965
 style: Abstract
 medium: Oil on canvas
-image: /img/1280px-Nighthawks_by_Edward_Hopper_1942.jpg
+image: /img/Sky above Clouds IV.jpg
 ---
 
 
