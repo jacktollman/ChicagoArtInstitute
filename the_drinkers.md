@@ -4,6 +4,7 @@ title: The Drinkers
 artist: Vincent van Gogh
 location: Netherlands
 period: 1890
+decade: one-eight-nine
 style: Post-Impressionism
 medium: Oil on canvas
 image: /img/The Drinkers.jpg
