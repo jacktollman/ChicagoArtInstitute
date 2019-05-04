@@ -34,7 +34,7 @@
 			</a>
 		</div>
 
-		<h3 class="title"> Decade </h3>
+		<h3 class="title"> Origin </h3>
 
 		<!-- <h1 class="categories"> Other Locations </h1> -->
 
@@ -48,11 +48,11 @@
 	
 	
 			<div class="two-grid-result">
-				<h1 class="categories-red">1870's</h1>
+				<h1 class="categories-red">United States</h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.decade contains "one-eight-seven" %}
+						{% if p.origin contains "United" %}
 								<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -75,11 +75,11 @@
 			
 			
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1880's </h1>
+				<h1 class="categories-red">France</h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.decade == "one-eight-eight" %}
+						{% if p.origin == "France" %}
 							<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -100,11 +100,11 @@
 			
 			
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1890's </h1>
+				<h1 class="categories-red"> Netherlands </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.decade contains "one-eight-nine" %}
+						{% if p.origin contains "Netherland" %}
 							<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -127,11 +127,11 @@
 	
 	
 			<div class="two-grid-result">
-				<h1 class="categories-red"> 1900's </h1>
+				<h1 class="categories-red">Spain</h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-zero" %}
+						{% if p.origin contains "Spain" %}
 							<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -153,11 +153,11 @@
 
 			
 						<div class="two-grid-result">
-				<h1 class="categories-red"> 1910's </h1>
+				<h1 class="categories-red"> Germany </h1>
 			</div>
 					<div class ="categories-grid">
 						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-one" %}
+						{% if p.origin contains "Germany" %}
 								<div class ="categories-result">
 								
 	<!-- 								    <li> -->
@@ -175,112 +175,6 @@
 						{% endif %}
 						{% endfor %} 
 					</div>
-
-
-			<div class="two-grid-result">
-				<h1 class="categories-red"> 1930's </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-three" %}
-								<div class ="categories-result">
-								
-	<!-- 								    <li> -->
-										<a href="{{ site.baseurl }}{{ p.url }}">
-											<div class ="categories-image">
-												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title"> {{ p.title }} </p>
-												<p class="painter-title"> {{ p.artist}} </p>
-											</div>
-										</a>
-	<!-- 								    </li> -->
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-			
-			
-			
-			<div class="two-grid-result">
-				<h1 class="categories-red"> 1940's </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-four" %}
-								<div class ="categories-result">
-								
-	<!-- 								    <li> -->
-										<a href="{{ site.baseurl }}{{ p.url }}">
-											<div class ="categories-image">
-												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title"> {{ p.title }} </p>
-												<p class="painter-title"> {{ p.artist}} </p>
-											</div>
-										</a>
-	<!-- 								    </li> -->
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-			
-			
-			
-			
-			<div class="two-grid-result">
-				<h1 class="categories-red"> 1950's </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-five" %}
-								<div class ="categories-result">
-								
-	<!-- 								    <li> -->
-										<a href="{{ site.baseurl }}{{ p.url }}">
-											<div class ="categories-image">
-												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title"> {{ p.title }} </p>
-												<p class="painter-title"> {{ p.artist}} </p>
-											</div>
-										</a>
-	<!-- 								    </li> -->
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-			
-			
-			
-			
-			<div class="two-grid-result">
-				<h1 class="categories-red"> 1960's </h1>
-			</div>
-					<div class ="categories-grid">
-						{% for p in site.pages %}
-						{% if p.decade contains "one-nine-six" %}
-								<div class ="categories-result">
-								
-	<!-- 								    <li> -->
-										<a href="{{ site.baseurl }}{{ p.url }}">
-											<div class ="categories-image">
-												<img src="{{site.baseurl}}{{p.image}}" alt="image of {{p.title}}">
-											</div>
-											<div class ="categories-writing-box">
-												<p class="painting-title"> {{ p.title }} </p>
-												<p class="painter-title"> {{ p.artist}} </p>
-											</div>
-										</a>
-	<!-- 								    </li> -->
-							</div>	
-						{% endif %}
-						{% endfor %} 
-					</div>
-
 
 
 
