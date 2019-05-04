@@ -2,7 +2,7 @@
 layout: page
 title: The Drinkers
 artist: Vincent van Gogh
-location: Netherlands
+origin: Netherlands
 period: 1890
 decade: one-eight-nine
 style: Post-Impressionism
