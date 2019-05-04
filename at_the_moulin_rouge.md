@@ -4,6 +4,7 @@ title: At the Moulin Rouge
 artist: Henri de Toulouse-Lautrec
 location: France
 period: 1892
+decade: one-eight-nine
 style: Post-Impressionism
 medium: Oil on canvas
 image: /img/At the Moulin Rouge.jpg
