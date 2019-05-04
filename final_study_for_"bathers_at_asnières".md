@@ -4,6 +4,7 @@ title: Final Study for "Bathers at Asnières"
 artist: Georges Seurat
 location: France
 period: 1883
+decade: one-eight-eight
 style: Pointillism
 medium: Oil on panel
 image: /img/Final Study.jpg
