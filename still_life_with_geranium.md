@@ -2,7 +2,7 @@
 layout: page
 title: Still Life with Geranium
 artist: Henri Matisse
-location: France
+origin: France
 period: 1906
 decade: one-nine-zero
 style: Fauvism
