@@ -7,7 +7,7 @@ period: 1906
 decade: one-nine-zero
 style: Fauvism
 medium: Oil on canvas
-image: /img/American-Gothic.jpg
+image: /img/Still Life with Geranium.jpeg
 ---
 
 Like his artistic hero, Paul Cézanne, Henri Matisse merged the traditional and the avant-garde. In Still Life with Geranium, he transformed a simple still life into a populated Arcadian landscape painting, rendered in the brilliant color, thick paint, and rapid brushwork characteristic of the group of painters known as the Fauves (French for “wild beasts”). Matisse was recognized by critics as the leader of this group.
