@@ -2,7 +2,7 @@
 layout: page
 title: Woman at Her Toilette
 artist: Berthe Morisot
-location: Paris
+origin: France
 period: 1875
 decade: one-eight-seven
 style: Impressionism
