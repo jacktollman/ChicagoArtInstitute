@@ -2,7 +2,7 @@
 layout: page
 title: The Bewitched Mill
 artist: Franz Marc
-location: Germany
+origin: Germany
 period: 1913
 decade: one-nine-one
 style: Expressionism
