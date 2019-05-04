@@ -4,6 +4,7 @@ title: The Bay of Marseille, Seen from L'Estaque
 artist: Paul Cézanne
 location: Paris
 period: 1885
+decade: one-eight-eight
 style: Post-Impressionism
 medium: Oil on canvas
 origin: France
