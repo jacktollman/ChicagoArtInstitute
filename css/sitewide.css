@@ -437,7 +437,7 @@ p		{
 		grid-row-gap:0.1em;
 /* 		align: left; */
 		
-		background-color: #E7E7E7;
+/* 		background-color: #E7E7E7; */
 		text-align: center;
 		
 		
@@ -519,7 +519,7 @@ p		{
 		height: 60px;
 		/*color: grey;*/
 		
-/* 		background-color: #E7E7E7; */
+		background-color: #E7E7E7;
 		margin-right: auto;
 		text-align: center;
 	}
