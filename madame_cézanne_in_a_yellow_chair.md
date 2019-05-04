@@ -2,7 +2,7 @@
 layout: page
 title: Madame Cézanne in a Yellow Chair
 artist: Paul Cézanne
-location: France
+origin: France
 period: 1893
 decade: one-eight-nine
 style: Post-Impressionism
