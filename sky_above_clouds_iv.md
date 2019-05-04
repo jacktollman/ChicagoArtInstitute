@@ -4,6 +4,7 @@ title: Sky above Clouds IV
 artist: Georgia O'Keeffe
 location: United States
 period: 1965
+decade: one-nine-six
 style: Abstract
 medium: Oil on canvas
 image: /img/Sky above Clouds IV.jpg
