@@ -8,7 +8,7 @@ style: Impressionism
 medium: Oil on canvas
 origin: France
 subject: cityscape
-image: /img/1280px-Nighthawks_by_Edward_Hopper_1942.jpg
+image: /img/Woman at Her Toilette.jpg
 ---
 
 
