@@ -404,7 +404,8 @@ p		{
 
 	.categories-image	{
 		width: 100%;
-		height: 220px;
+		height: 100%;
+/* 		height: 220px; */
 		/*color: grey;*/
 		background-color: red;
 		margin-right: auto;
