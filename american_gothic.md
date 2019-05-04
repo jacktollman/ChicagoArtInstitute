@@ -9,6 +9,7 @@ style: Modernism
 medium: Oil on Beaver Board
 origin: United States
 subject: Portrait
+featured: yes
 image: /img/American-Gothic.jpg
 ---
 
