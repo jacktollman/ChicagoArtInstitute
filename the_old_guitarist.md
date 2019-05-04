@@ -7,7 +7,7 @@ period: 1904
 decade: one-nine-zero
 style: Expressionism
 medium: Oil on panel
-origin: United States
+origin: Spain
 subject: Portrait
 image: /img/The Old Guitarist.jpg
 ---
