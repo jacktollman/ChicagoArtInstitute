@@ -4,6 +4,7 @@ title: Paris Street; Rainy Day
 artist: Gustave Caillebotte 
 location: Paris
 period: 1877
+decade: one-eight-seven
 style: Impressionism
 medium: Oil on canvas
 origin: United States
