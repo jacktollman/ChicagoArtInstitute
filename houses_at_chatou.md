@@ -4,6 +4,7 @@ title: Houses at Chatou
 artist: Maurice de Vlaminck
 location: France
 period: 1905
+decade: one-nine-zero
 style: Fauvism
 medium: Oil on canvas
 image: /img/Houses at Chatou.jpg
