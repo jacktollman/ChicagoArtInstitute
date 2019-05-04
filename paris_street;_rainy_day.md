@@ -2,7 +2,7 @@
 layout: page
 title: Paris Street; Rainy Day
 artist: Gustave Caillebotte 
-location: Paris
+origin: Paris
 period: 1877
 decade: one-eight-seven
 style: Impressionism
