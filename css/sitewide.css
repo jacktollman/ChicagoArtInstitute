@@ -217,6 +217,17 @@ p		{
 }
 
 
+.categories-writing-box	{
+	background-color: white;
+	padding: 1%;
+	/*margin-left: 5%;*/
+	margin:0;
+	width:100%;
+	margin-bottom: 2em;
+	/*height:auto;*/
+	/*height: 80px;*/
+}
+
 
 
 
