@@ -291,7 +291,7 @@ p		{
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
 /* @media (min-width: 720px) { */
-@media (min-width: 850px) {
+@media (min-width: 800px) {
 /* @media (min-width: 600px) {
  */
 	/* container on larger screens */
@@ -888,7 +888,7 @@ p		{
 
 
 
-@media (max-width: 720px) {
+@media (max-width: 800px) {
 .container {
 	width: 90%;
 	max-width: 900px;
