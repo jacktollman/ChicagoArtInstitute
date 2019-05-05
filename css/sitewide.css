@@ -901,11 +901,13 @@ p		{
 }
 	
 .artist-title	{
-	text-align: center;
+	text-align: left;
 	margin-bottom: 1em;
 	font-weight: 100;
 	font-size: 2em;
 }
+	
+	
 	
 .top-two-grid	{
 	display: grid;
