@@ -229,6 +229,31 @@ p		{
 }
 
 
+.top-two-grid	{
+	display: grid;
+	margin-right: auto;
+	margin-top: 4em;
+	margin-bottom: 2em;
+	margin-left: 0;
+	width: 100%;
+	padding: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:1em;
+	align: left;
+}
+
+.top-two-grid-result	{
+	background: white;
+	grid-columns: span 1;
+	/*grid-row: 1/2;*/
+}
+
+
+
+
 
 
 
