@@ -211,7 +211,9 @@ p		{
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
-@media (min-width: 900px) {
+/* @media (min-width: 720px) {
+@media (min-width: 900px) { */
+@media (min-width: 600px) {
 
 	/* container on larger screens */
 	.container {
@@ -414,8 +416,8 @@ p		{
 /* 		height: 100%; */
 		width: auto;
 		height: 220px;
-		/*color: grey;*/
-		background-color: #e7e7e7;
+ 		color: grey;
+/* 		background-color: #e7e7e7; */
 		margin-right: auto;
 		display: flex;
 		object-fit: none;
@@ -536,8 +538,8 @@ p		{
 		width: 100%;
 		height: 60px;
 		/*color: grey;*/
-		background-color: grey;
-/* 		background-color: #E7E7E7; */
+/* 		background-color: grey; */
+		background-color: #E7E7E7;
 		margin-right: auto;
 		text-align: center;
 		padding-top: 1em;
