@@ -256,7 +256,7 @@ p		{
 /* 	max-height: 100px; */
 	color: grey;
 	margin-right: auto;
-	display: flex;
+	display: block;
 	object-fit: none;
 	justify-content: center;
 	align-items: center;
