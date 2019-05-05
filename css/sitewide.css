@@ -251,7 +251,17 @@ p		{
 	/*grid-row: 1/2;*/
 }
 
-
+.categories-image	{
+	width: auto;
+	max-height: 100px;
+	color: grey;
+	margin-right: auto;
+	display: flex;
+	object-fit: none;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden
+}
 
 
 
