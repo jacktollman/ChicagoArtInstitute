@@ -244,10 +244,10 @@ p		{
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
-/* @media (min-width: 720px) {
-@media (min-width: 900px) { */
-@media (min-width: 600px) {
-
+/* @media (min-width: 720px) { */
+@media (min-width: 850px) {
+/* @media (min-width: 600px) {
+ */
 	/* container on larger screens */
 	.container {
 		width: 90%;
