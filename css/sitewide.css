@@ -253,7 +253,7 @@ p		{
 
 .categories-image	{
 	width: auto;
-	max-height: 100px;
+/* 	max-height: 100px; */
 	color: grey;
 	margin-right: auto;
 	display: flex;
